@@ -1,0 +1,290 @@
+a, a:hover, a:focus {
+    color: inherit;
+    text-decoration: none;
+}
+body {
+    background-color: #F5F5F5;
+}
+body .transparent-header #navigation > ul li a, .transparent-header .header-notifications-trigger, .transparent-header .header-notifications-trigger a {
+    color: #FFF;
+}
+
+.transparent-header .header-widget .log-in-button:hover, .transparent-header .header-widget .log-in-button i {
+    /*color: inherit;*/
+}
+.freelancer-details a.button:hover {
+    color: #FFF;
+}
+.dropdown-toggle::after {
+    display: none;
+}
+.intro-banner {
+    color: #FFF;
+}
+.banner-headline {
+    max-width: 100%;
+}
+.banner-headline h1, .banner-headline h2, .banner-headline h3, .banner-headline h4 {
+    color: #FFF !important;
+}
+.intro-banner a.field-title.btn {
+    background: #233df2;
+    color: #FFF;
+    padding: 3px 7px;
+    font-size: x-small;
+    margin-right: 3px;
+}
+.home-page-photos {
+    padding: 40px 20px 20px;
+}
+.gallery_image{
+    width:100%;
+    display: block;
+    height: 150px;
+}
+.photos-flex-each-overlay{
+    padding: 1rem;
+    box-shadow: 1px 2px 40px 2px rgba(160, 160,160, .5);
+    width: 100%;
+    box-sizing: border-box;
+    margin: 1rem;
+}
+.photos-flex-each{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+/*Browse photos template*/
+.browse-photos-section {
+    /*display: flex;
+    width: 100%;*/
+}
+.browse-photos-section-each {
+    margin-bottom: 30px;
+    box-shadow: 0 2px 15px 2px #d0d0d0;
+}
+.browse-photos-section-each:hover .browse-photos-each-info {
+    display: block;
+}
+.browse-photos-section-each .browse-photos-each-info {
+    position: relative;
+    width: 100%;
+    display: none;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 0%, transparent 100%);
+}
+.browse-photos-section-each .browse-photos-each-info > div {
+    padding: 15px 15px 15px;
+    width: 100%;
+    height: 50px;
+    margin-top: -50px;
+    color: #fff;
+}
+#browse-photos-section-loader img {
+    height: 100px;
+}
+
+
+
+@media only screen and (min-width: 33.75em) {
+    .photos-flex-each-overlay{
+        flex-basis: calc(50% - 3rem);
+    }
+}
+@media only screen and (min-width: 48em) {
+    .photos-flex-each-overlay{
+        flex-basis: calc((100% / 3) - 3rem);
+    }
+}
+@media only screen and (min-width: 60em) {
+    .photos-flex-each-overlay{
+        flex-basis: calc((100% / 4) - 3rem);
+    }
+}
+@media only screen and (min-width: 72em) {
+    .photos-flex-each-overlay{
+        flex-basis: calc((100% / 5) - 3rem);
+    }
+}
+.photos-flex-container {
+     margin-left: 50px;
+ }
+/*
+.photos-flex-each {
+    !*margin: 2px;*!
+    !*height: 220px;*!
+    flex: 20%;
+    max-width: 20%;
+    !*padding: 10px;*!
+}
+.photos-flex-each:hover .photos-flex-each-overlay {
+    opacity: 1;
+    cursor: pointer;
+}
+.photos-flex-each-overlay {
+    color: #FFF;
+    width: 20%;
+    position: absolute;
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.photos-flex-each-overlay-info {
+    bottom: 0;
+    width: 100%;
+}
+.photos-flex-each-overlay-info > div {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.photos-flex-each-overlay .overlay-title {
+    float: left;
+    width: 80%;
+    text-align: left;
+    padding-left: 10px;
+}
+.photos-flex-each-overlay .overlay-icons {
+    color: #F00;
+    float: left;
+    width: 20%;
+    text-align: right;
+    padding-right: 10px;
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+.photos-flex-each-overlay .overlay-icons i {
+    cursor: pointer;
+}
+.photos-flex-container img {
+    flex-grow: 1;
+    !*height: 220px;*!
+    width: 100%;
+    !*margin: 2px;*!
+    !*position: absolute;*!
+    !*flex: 25%;*!
+}*/
+
+.dropdown-menu>button.dropdown-item {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: #333;
+    white-space: nowrap;
+    width: 100%;
+    text-align: left;
+    background: #fff;
+    border: none;
+}
+
+.dropdown-menu>button.dropdown-item:focus,
+.dropdown-menu>button.dropdown-item:hover {
+    color: #262626;
+    text-decoration: none;
+    background-color: #f5f5f5;
+}
+
+
+/* Popup */
+#sign-in-dialog1,
+#small-dialog-1,
+#small-dialog-2,
+#small-dialog-3,
+#small-dialog-4,
+#small-dialog {
+    background: #fff;
+    padding: 40px;
+    padding-top: 0;
+    text-align: left;
+    max-width: 610px;
+    margin: 40px auto;
+    position: relative;
+    box-sizing:border-box;
+    border-radius: 4px;
+    max-width: 550px;
+}
+
+
+#sign-in-dialog-1 span.line,
+#sign-in-dialog-2 span.line,
+#sign-in-dialog-3 span.line,
+#sign-in-dialog-4 span.line,
+#sign-in-dialog1 span.line,
+#small-dialog span.line {padding-top: 0;}
+
+.photo-details-right-title {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+}
+.photo-details-left-image img {
+    box-shadow: 1px 10px 40px 1px rgba(160, 160, 160, 10);
+}
+.photo-details-right-rating {
+    color: gold;
+}
+.photo-details-right-license {
+    font-size: small;
+}
+.photo-details-right-price {
+    font-size: 20px;
+}
+.photo-details-right-share span {
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid #444;
+    min-width: 37px;
+    text-align: center;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.photo-details-right-share span:first-child {
+    border: 0;
+    padding-left: 0;
+}
+.photo-details-right-share  span.fa-facebook-f {
+    border-color: #4867aa;
+    color: #4867aa;
+}
+.photo-details-right-share  span.fa-twitter {
+    border-color: #1da1f2;
+    color: #1da1f2;
+}
+.photo-details-right-share  span.fa-pinterest {
+    border-color: #fe6603;
+    color: #fe6603;
+}
+.photo-details-right-share  span.fa-google-plus-g {
+    border-color: #cd4539;
+    color: #cd4539;
+}
+.photo-details-right-share span.fa-facebook-f:hover {
+    border-color: #4867aa;
+    color: #FFF;
+    background-color: #4867aa;
+}
+.photo-details-right-share span.fa-twitter:hover {
+    border-color: #1da1f2;
+    color: #FFF;
+    background-color: #1da1f2;
+}
+.photo-details-right-share span.fa-pinterest:hover {
+    border-color: #fe6603;
+    color: #FFF;
+    background-color: #fe6603;
+}
+.photo-details-right-share span.fa-google-plus-g:hover {
+    border-color: #cd4539;
+    color: #FFF;
+    background-color: #cd4539;
+}
+
+.photo-details-right-size label {
+    font-size: small;
+}

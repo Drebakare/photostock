@@ -1,0 +1,22 @@
+.upload_tabs li a {
+    cursor: pointer;
+    padding: 15px 10px 15px;
+    font-size: smaller;
+    background-color: #FFF;
+    border-radius: 0 !important;
+}
+.upload_tabs li a.active {
+    background-color: #2a41e8 !important;
+    color: #FFF !important;
+    border: 0;
+    border-bottom: 1px solid #2a41e8;
+}
+.upload_tabs_content {
+    display: none;
+}
+.upload_tabs_content:first-child {
+    display: block;
+}
+button.upload_previous_button {
+    display: none;
+}
